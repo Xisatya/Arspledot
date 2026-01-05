@@ -24,16 +24,12 @@ super + shift + m
 #-------------------> System <---------------------------
 # reload config
 super + shift + r
+    sh ~/.config/bspwm/restart_wm.sh
     bspc wm -r
 
 # logout bspwm
 super + shift + q
     bspc quit
-# reload sxhkd
-super + r + s
-    pkill sxhkd
-    sxhkd &
-
 
 #-------------------> Apps <--------------------------
 # terminal
