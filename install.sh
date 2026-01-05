@@ -79,4 +79,11 @@ chmod +x "$CONFIG_DIR/sxhkd/sxhkdrc" 2>/dev/null || true
 echo
 echo "✅ Installation complete."
 echo "Backup folder (if used): $BACKUP_ROOT"
-echo "You can now start bspwm."
+echo "Basic use: "
+echo ""
+echo "SUPER + ENTER/RETURN = open kitty terminal"
+echo "SUPER + Q	           = close window"
+echo "SUPER + SHIFT + Q    = exit bspwm session"
+echo ""
+echo "Now you can restart WM with SUPER + SHIFT + R"
+
