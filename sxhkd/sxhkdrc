@@ -1,0 +1,65 @@
+#sxhkdrc
+
+#-------------------> Window <--------------------------
+#close window
+super + q
+    bspc node -c
+
+#force close window
+super + shift + q
+    bspc node -k
+
+# toggle fullscreen
+super + shift + f
+    bspc node -t ~fullscreen
+
+# toggle floating
+super + space
+    bspc node -t ~floating
+
+# toggle monocle layout
+super + shift + m
+    bspc desktop -l next
+
+#-------------------> System <---------------------------
+# reload config
+super + shift + r
+    bspc wm -r
+
+# logout bspwm
+super + shift + q
+    bspc quit
+# reload sxhkd
+super + r + s
+    pkill sxhkd
+    sxhkd &
+
+
+#-------------------> Apps <--------------------------
+# terminal
+super + Return
+    kitty
+
+# file manager
+super + e
+    dolphin
+
+#-------------------> Workspace <---------------------
+# switch workspace
+super + {1-9}
+    bspc desktop -f ^{1-9}
+
+# move window to workspace
+super + shift + {1-9}
+    bspc node -d ^{1-9}
+
+# focus window (arrow keys)
+super + {Left,Down,Up,Right}
+    bspc node -f {west,south,north,east}
+
+#-------------------> Launcher <-----------------------
+
+super + shift + Return
+    sh ~/.config/rofi/launcher-scripts/launcher.sh
+super + shift + p
+    sh ~/.config/rofi/launcher-scripts/powermenu.sh

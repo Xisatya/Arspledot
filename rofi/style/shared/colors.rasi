@@ -1,0 +1,19 @@
+/**
+ * Arsple Color Scheme
+ *
+ * Author : Bayu Aryasatya Herutama (Xisatya)
+ * Github : @Xisatya
+ * 
+ *
+ **/
+
+* {
+    background:     #0F111A;  
+    background-alt: #161821;
+    foreground:     #C0CAF5;
+
+    selected:       #7A6FE3;
+    active:         #9ECE6A;
+    urgent:         #F7768E;
+}
+
