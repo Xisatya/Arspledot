@@ -29,6 +29,7 @@ CONFIG_FOLDERS=(
   rofi
   polybar
   dunst
+  picom
 )
 
 echo "== BSPWM Minimal DE Installer =="
