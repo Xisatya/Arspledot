@@ -85,5 +85,5 @@ echo "SUPER + ENTER/RETURN = open kitty terminal"
 echo "SUPER + Q	           = close window"
 echo "SUPER + SHIFT + Q    = exit bspwm session"
 echo ""
-echo "Now you can restart WM with SUPER + SHIFT + R"
+echo "Now you can reboot system"
 
