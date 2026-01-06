@@ -10,6 +10,10 @@ With AUR:
 
 tela-icon-theme
 
+**IMPORTANT**
+
+If you are not in a desktop environment (in a terminal environment), make sure you are running the X11 server and then enter bspwm. This is usually done automatically if you are using SDDM.
+
 **Installation (ARCH ONLY)**
 
 $ git clone https://github.com/Xisatya/arspledot
